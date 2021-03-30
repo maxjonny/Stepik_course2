@@ -5,4 +5,4 @@ register = template.Library()
 
 @register.filter
 def repl(self):
-    return self.replace(", "," • ")
+    return self.replace(", ", " • ")
